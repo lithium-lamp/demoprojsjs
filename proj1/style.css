@@ -1,19 +1,72 @@
 main {
-
+    background-color: bisque;
 }
 
 .container {
-    width: 350px;
-    height: 300px;
-    margin: auto;
-    padding: 5px;
-    text-align: center;
-}
-
-.container div {
     width: 300px;
     height: 300px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    z-index: 1;
     background-color: white;
+}
+
+#demo1 {
+    position: relative;
+    width: 300px;
+    height: 300px;
     margin: auto;
     border-style: inset;
+    box-sizing: border-box;
+    z-index: 3;
 }
+
+#buoy {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: red;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.items {
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 0.1px;
+    text-align: right;
+    margin-right: 5px;
+    z-index: 1;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+
+
+/*
+#buoy {
+    cursor: move;
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+*/
+
+ /*
+ #buoy:active {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
+*/

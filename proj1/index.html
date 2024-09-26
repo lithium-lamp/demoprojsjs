@@ -8,13 +8,31 @@
 </head>
 <body>
     <main>
+        <!--
         <div class="container">
-            <div>
+            <div id="demo1" ondrop="dropHandler(event)"
+            ondragover="dragoverHandler(event)">
+                
 
+
+            </div>
+            <div class="items">
+                <p class="noselect">position x: </p>
+                <p class="noselect">position y: </p>
+                <p class="noselect">velocity x: </p>
+                <p class="noselect">velocity y: </p>
+                <p class="noselect">acceleration x: </p>
+                <p class="noselect">acceleration y: </p>
             </div>
             <p>Project one</p>
         </div>
+        -->
+
+        <canvas style="background-color: rgb(255, 255, 255);" width="300px" height="300px" id="canvas">
+
+        </canvas>
     </main>
-    <script src="script.js"></script>
+    <script src="buoy.js"></script>
+    <script src="gameloop.js"></script>
 </body>
 </html>
