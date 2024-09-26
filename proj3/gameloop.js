@@ -23,7 +23,7 @@ const balls = [ball1, ball2, ball3, ball4, ball5];
 const springs = [spring1, spring2, spring3];
 
 function init(){
-    canvas = document.getElementById('canvas');    context = canvas.getContext('2d');
+    canvas = document.getElementById('demo3');
     context = canvas.getContext('2d');
 
     canvas.addEventListener('mousedown', function(event) {
