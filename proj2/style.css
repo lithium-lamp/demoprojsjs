@@ -14,16 +14,8 @@ main {
 }
 
 #demo2 {
-    background-color: aquamarine;
-    background-image:
-      linear-gradient(45deg, #000 25%, transparent 25%),
-      linear-gradient(45deg, transparent 75%, #000 75%),
-      linear-gradient(45deg, transparent 75%, #000 75%),
-      linear-gradient(45deg, #000 25%, #fff 25%);    
-
-    background-size:37.5px 37.5x;
-
-    background-position:0 0, 0 0, -18.75px -18.75px, 18.75px 18.75px;
+    background-color: white;
+    
 }
 
 .noselect {
